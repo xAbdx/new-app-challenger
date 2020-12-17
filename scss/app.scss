@@ -21,6 +21,41 @@ body, html {
     display: flex;
     align-items: center;
 
+    .color-pick {
+        background: #fff;
+        height: 80px;
+        width: 600px;
+        position: absolute;
+        left: 50%;
+        top: 10%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 49px;
+
+        .main-color {
+            .pick-main-color {
+                cursor: pointer;
+            }
+            
+            .pick-main-color span {
+                padding-left: 40px;
+            }
+        }
+
+        .sub-main-color {
+            .pick-sub-color {
+                cursor: pointer;
+            }
+
+            .pick-sub-color span {
+                padding-left: 40px;
+            }
+        }
+    }
+
     .nice-image {
         position: absolute;
         width: 100%;

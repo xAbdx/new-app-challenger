@@ -12,8 +12,23 @@
 </head>
 
 <body>
-    <section class="main">
+    <section class="main" id="main">
         <div class="nice-image">
+            <div class="color-pick">
+                <div class="main-color">
+                    <div class="pick-main-color">
+                        <input type="color" name="MainColor" id="MainColor">
+                        <button onclick="changeMainColor()">Select</button>
+                    </div>
+                </div>
+                <div class="sub-main-color">
+                    <div class="pick-sub-color">
+                        <input type="color" name="subColor" id="subColor">
+                        <button onclick="changeSubColor()">Select</button>
+                    </div>
+                </div>
+            </div>
+
             <div class="content-wrapper">
                 <h1>Challenger</h1>
                 <p>Test Your Knowledge and Skills Instantly</p>
@@ -27,6 +42,8 @@
             </div>
         </div>
     </section>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
